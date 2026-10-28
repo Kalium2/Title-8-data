@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "scraper_version": "1.0.0",
+    "jurisdiction": "California",
+    "code": "California Code of Regulations",
+    "title": "8",
+    "title_name": "Industrial Relations",
+    "source": "California Department of Industrial Relations",
+    "source_root": "https://www.dir.ca.gov/counters/t8index.htm",
+    "source_scope": "Title 8, Division 1: the collection linked from DIR's eight department indexes. Divisions 2 and 3 are outside this source.",
+    "freshness_note": "Official agency-hosted HTML, retrieved at crawl time. DIR does not warrant that every page is current or accurate.",
+    "start_urls": [
+      "https://www.dir.ca.gov/title8/4999.html"
+    ],
+    "started_at": "2026-10-28T04:40:35.422739+00:00",
+    "generated_at": "2026-10-28T04:41:35.999740+00:00",
+    "crawl_complete": true,
+    "covers_full_source_tree": false,
+    "interrupted": false,
+    "pages_discovered": 1,
+    "pages_processed": 1,
+    "index_count": 0,
+    "entry_count": 1,
+    "error_count": 0,
+    "asset_policy": "Images and linked documents are referenced by URL; not downloaded or OCRed.",
+    "requested_citation": "8 CCR § 4999(a)",
+    "export_type": "subsection",
+    "extraction_boundary": "Single paragraph beginning (a), ending before (b) Size of Load.",
+    "parent_section_export": "4999.json"
+  },
+  "entries": [
+    {
+      "id": "https://www.dir.ca.gov/title8/4999.html#co_pp_8b3b0000958a4",
+      "section": "4999",
+      "citation": "8 CCR § 4999(a)",
+      "title": "§4999(a). Handling Loads.",
+      "kind": "subsection",
+      "status": "not_marked_repealed_or_reserved",
+      "url": "https://www.dir.ca.gov/title8/4999.html#co_pp_8b3b0000958a4",
+      "hierarchy": [],
+      "text": "(a) The qualified person (rigger) shall be trained and capable of safely performing the rigging operation. All loads shall be rigged by a qualified person (rigger) or by a trainee under the direct visual supervision of a qualified person (rigger).",
+      "notes": "",
+      "references": [],
+      "images": [],
+      "fetched_at": "2026-10-28T04:40:36.754922+00:00",
+      "source_sha256": "27acf09e7cb2a04f383b9b83bc075beb859f39565c86b7dd7e10aca0b45ecc65",
+      "html": "<div class=\"co_contentBlock co_subsection\"><div class=\"co_paragraph\" id=\"co_anchor_I412E5ED05A0F11EC8227000D3A7C4BC3\"><div class=\"co_paragraphText\"><a id=\"co_pp_8b3b0000958a4\"></a>(a) The qualified person (rigger) shall be trained and capable of safely performing the rigging operation. All loads shall be rigged by a qualified person (rigger) or by a trainee under the direct visual supervision of a qualified person (rigger).</div></div></div>",
+      "subsection": "a",
+      "parent_section_url": "https://www.dir.ca.gov/title8/4999.html",
+      "parent_section_json": "4999.json"
+    }
+  ],
+  "indexes": [],
+  "errors": [],
+  "unvisited_urls": []
+}

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ca-title8-scraper"
+version = "1.0.0"
+description = "Resumable California Code of Regulations Title 8 to JSON scraper"
+requires-python = ">=3.10"
+dependencies = ["lxml>=5.0,<7"]
+
+[project.scripts]
+ca-title8 = "ca_title8.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ca_title8*"]

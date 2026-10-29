@@ -4,5 +4,6 @@ __pycache__/
 *.egg-info/
 .cache/
 data/*.json
+data/*.json.gz
 !data/sample.json
 !data/sample-dir.json

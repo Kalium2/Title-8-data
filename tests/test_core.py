@@ -129,6 +129,16 @@ class CrawlTests(unittest.TestCase):
                 if not expected_errors:
                     self.assertEqual(result['entries'][0]['status'], 'repealed')
 
+    def test_terminal_index_retains_repeal_history_and_html(self):
+        page = ParsedPage('Subchapter 8 [Repealed]', 'index',
+                          text='Repealer filed 3-12-1968.', html='<p>Repealer filed 3-12-1968.</p>')
+        client = Mock()
+        client.fetch.side_effect = fetched
+        result = crawl(source({ROOT: page}), client, include_html=True)
+        self.assertTrue(result['metadata']['crawl_complete'])
+        self.assertEqual(result['indexes'][0]['text'], page.text)
+        self.assertEqual(result['indexes'][0]['html'], page.html)
+
 
 class CacheTests(unittest.TestCase):
     def setUp(self):

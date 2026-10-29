@@ -1,0 +1,29 @@
+{
+  "dataset": "California Title 8 — Cal/OSHA",
+  "generated_at": "2026-10-29T01:13:43.052175+00:00",
+  "sections_and_appendices": 4357,
+  "citation_records": 40016,
+  "coverage_report": "cal-osha-coverage.json",
+  "files": [
+    {
+      "path": "data/cal-osha-sections.json.gz",
+      "bytes": 6742677,
+      "base64_characters": 8990236,
+      "git_sha": "ce03f62df0e90ef4667272948817ebc208fe74ca",
+      "json_bytes": 42305779,
+      "json_sha256": "07ded8ad81131c68bdf07fefed0ff41d62cfa56252297c04dd6b734420927a03",
+      "compressed_sha256": "0df804f8a8a53e336fea8f051440a65b23e45e6a702d55597d51484cf4f30ca4"
+    },
+    {
+      "path": "data/cal-osha-citations.json.gz",
+      "bytes": 7111353,
+      "base64_characters": 9481804,
+      "git_sha": "52a9ab45a80a52df8f6a6bb72c7ba66ba5470c0f",
+      "json_bytes": 58936739,
+      "json_sha256": "fefc8beb69b93f5b44d9451718353539d8c0cab1ac0db08550ee484c5734884a",
+      "compressed_sha256": "b47d4ce2629fc695c908d672b399498f50074f4dbc17d66629a66ec17caaeb09"
+    }
+  ],
+  "compression": "gzip; decompress to ordinary UTF-8 JSON",
+  "complete_without_gaps": false
+}

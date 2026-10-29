@@ -1,5 +1,7 @@
 # California Title 8 → JSON
 
+The [Cal/OSHA dataset and download instructions](data/README.md) include 4,357 section and appendix entries and 40,016 citation records. See the [coverage report](data/cal-osha-coverage.json) for the unavailable official source page and remaining citation indexing issues. Large exports are compressed JSON (`.json.gz`).
+
 A Python scraper for the **California Code of Regulations, Title 8 — Industrial Relations**. It follows published tables of contents, rather than guessing section numbers. The default source includes all three divisions, including appendices and repealed entries exposed by that source.
 
 ## Sources and coverage
@@ -57,6 +59,19 @@ python -m ca_title8 --max-pages 10 --output data/partial.json
 
 ## Resume and refresh
 
+To export every page in DIR's **Cal/OSHA** table of contents, including its administrative chapters, safety orders, appendices, and injury reporting rules:
+
+```bash
+python -m ca_title8 --source dir \
+  --start-url https://www.dir.ca.gov/samples/search/query.htm \
+  --output data/cal-osha-sections.json --include-html
+python -m ca_title8.citations \
+  --input data/cal-osha-sections.json \
+  --output data/cal-osha-citations.json
+```
+
+The citation export retains full section text and adds records for numbered subdivisions such as `8 CCR § 4999(a)` and `8 CCR § 4999(b)(1)(A)`. Each subdivision links to its parent for context. Any labels the parser cannot place reliably are reported explicitly; check `citation_extraction_complete` and the error report. Compressed full exports, when generated, use the same JSON format with a `.json.gz` extension.
+
 Rerun the same command to resume using `.cache/title8/<source>/`. The scraper reconstructs discovery from cached TOCs, skips downloads it already has, and retries previously failed downloads. Ctrl-C saves a partial JSON file. Output also checkpoints every 100 processed pages and is replaced atomically.
 
 Use `--refresh` to redownload all pages for a new snapshot, or choose a new `--cache-dir` to keep snapshots separate. Without `--refresh`, a resumed export can mix retrieval dates; each entry includes its original `fetched_at` value. Cached successful HTTP responses that fail parsing also remain cached; refresh them after fixing a source problem.
@@ -75,7 +90,7 @@ The top-level object contains:
 
 Each entry includes its section identifier, citation, title, kind, marked repeal/reservation status, source URL, hierarchy, regulation text, notes, references, images, fetch timestamp, and source response SHA-256. `--include-html` also retains regulation HTML, preserving table structure. Treat stored HTML as source content and sanitize it before rendering in a web application. Status describes labels in the source heading; it is not a legal determination.
 
-Images, PDF attachments, and other linked documents are included as URLs; their content is not downloaded or OCRed. This means image-only figures and incorporated documents do not become searchable text. Cross-references are recorded but are not followed as discovery links. TOC links, not numerical gaps, define the collection.
+Images and most linked documents are included as URLs. The seven designated recordkeeping appendices are collected even though DIR hosts them outside its Title 8 directory; text is extracted from their four PDFs. No OCR is performed, so image-only figures and other incorporated documents do not become searchable text. Cross-references are recorded but are not followed as discovery links. TOC links, not numerical gaps, define the collection.
 
 `crawl_complete: true` describes the requested traversal, including a successful one-section run. `covers_full_source_tree: true` additionally requires starting at the source root. Always check the source scope and freshness note before describing the dataset as complete.
 

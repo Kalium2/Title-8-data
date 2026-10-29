@@ -1,0 +1,462 @@
+{
+  "generated_at": "2026-10-29T01:13:43.051225+00:00",
+  "scope": "Every Cal/OSHA Title 8 citation in DIR's published table of contents, including repealed entries and appendices",
+  "source_root": "https://www.dir.ca.gov/samples/search/query.htm",
+  "status": "published_with_documented_gaps",
+  "crawl": {
+    "pages_discovered": 4970,
+    "pages_processed": 4970,
+    "entry_count": 4357,
+    "index_count": 612,
+    "error_count": 1,
+    "crawl_complete": false,
+    "interrupted": false
+  },
+  "entry_kinds": {
+    "appendix": 276,
+    "section": 4081
+  },
+  "citation_index": {
+    "citation_count": 40016,
+    "section_record_count": 4357,
+    "subdivision_count": 35659,
+    "source_item_count": null,
+    "unresolved_count": 23,
+    "extraction_error_count": 24,
+    "citation_extraction_complete": false
+  },
+  "source_errors": [
+    {
+      "url": "https://www.dir.ca.gov/t8/14313.html",
+      "error": "HTTPError: HTTP Error 404: Not Found (last live crawl)"
+    }
+  ],
+  "extraction_errors": [
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/344_85.html#co_anchor_I3BC368EAAA194185B8FED1F6B333D435",
+      "citation": "8 CCR § 344.85",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/2395_5.html",
+      "citation": "8 CCR § 2395.5",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/2395_5.html",
+      "citation": "8 CCR § 2395.5",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/2982.html",
+      "citation": "8 CCR § 2982",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/2982.html",
+      "citation": "8 CCR § 2982",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/2982.html",
+      "citation": "8 CCR § 2982",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/3041.html",
+      "citation": "8 CCR § 3041",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/3089.html#co_anchor_I054C5919F29D46BA94BCCE4C4F9B2FA4",
+      "citation": "8 CCR § 3089",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/3089.html#co_anchor_IFF5481651BA84834A3CFD74DDFC9C137",
+      "citation": "8 CCR § 3089",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/3089.html#co_anchor_IF15A22DB2BA940A08A852214BDA07942",
+      "citation": "8 CCR § 3089",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/3089.html#co_anchor_ID041E9D2D6ED41768904C4DF61C5E83E",
+      "citation": "8 CCR § 3089",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/3089.html#co_anchor_IA179654AF33F477EA895AC0E72A875BF",
+      "citation": "8 CCR § 3089",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/3089.html#co_anchor_I26E4D3A9CFE840E6A909E71FE94B744F",
+      "citation": "8 CCR § 3089",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/3090.html",
+      "citation": "8 CCR § 3090",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/3090.html",
+      "citation": "8 CCR § 3090",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/3090.html",
+      "citation": "8 CCR § 3090",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/5189.html#co_anchor_I63257ECA3FA249E68B846E6EA5422865",
+      "citation": "8 CCR § 5189",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/5192.html#co_anchor_I49FAB8605A0F11EC8227000D3A7C4BC3",
+      "citation": "8 CCR § 5192",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/5192.html#co_anchor_I49FB54A05A0F11EC8227000D3A7C4BC3",
+      "citation": "8 CCR § 5192",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/5192.html#co_anchor_I49FB7BB05A0F11EC8227000D3A7C4BC3",
+      "citation": "8 CCR § 5192",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/5192.html#co_anchor_I49FBA2C05A0F11EC8227000D3A7C4BC3",
+      "citation": "8 CCR § 5192",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/5199.html#co_anchor_IC2BBD9E15CE311E4A75DD2EED456709D",
+      "citation": "8 CCR § 5199",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "duplicate_citation",
+      "url": "https://www.dir.ca.gov/title8/5199.html#co_anchor_IC2BBD9E35CE311E4A75DD2EED456709D",
+      "citation": "8 CCR § 5199",
+      "error": "A displayed citation path occurs more than once; neither text is discarded."
+    },
+    {
+      "code": "conflicting_section",
+      "url": "https://www.dir.ca.gov/title8/5308.html",
+      "citation": "8 CCR § 5307",
+      "error": "Different source pages use the same section citation with different text."
+    }
+  ],
+  "unresolved_citations": [
+    {
+      "source_url": "https://www.dir.ca.gov/title8/344_85.html",
+      "url": "https://www.dir.ca.gov/title8/344_85.html#co_anchor_I3BC368EAAA194185B8FED1F6B333D435",
+      "section_citation": "8 CCR § 344.85",
+      "designators": [
+        "(c)"
+      ],
+      "text": "(c) The alien child meets the requirements of Subsection (c)(8)(C).",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 344.85(c)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/2395_5.html",
+      "url": "https://www.dir.ca.gov/title8/2395_5.html",
+      "section_citation": "8 CCR § 2395.5",
+      "designators": [
+        "(a)"
+      ],
+      "text": "(a) The conditions of maintenance and supervision ensure that only qualified persons will service the installation;",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 2395.5(a)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/2395_5.html",
+      "url": "https://www.dir.ca.gov/title8/2395_5.html",
+      "section_citation": "8 CCR § 2395.5",
+      "designators": [
+        "(b)"
+      ],
+      "text": "(b) Continuity of power is required;",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 2395.5(b)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/2982.html",
+      "url": "https://www.dir.ca.gov/title8/2982.html",
+      "section_citation": "8 CCR § 2982",
+      "designators": [
+        "(a)"
+      ],
+      "text": "(a) Steering and maneuvering.",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 2982(a)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/2982.html",
+      "url": "https://www.dir.ca.gov/title8/2982.html",
+      "section_citation": "8 CCR § 2982",
+      "designators": [
+        "(b)"
+      ],
+      "text": "(b) Vehicle stability.",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 2982(b)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/2982.html",
+      "url": "https://www.dir.ca.gov/title8/2982.html",
+      "section_citation": "8 CCR § 2982",
+      "designators": [
+        "(c)"
+      ],
+      "text": "(c) Documentation of employee training shall be maintained as required by Section 3203 of the General Industry Safety Orders.",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 2982(c)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/3041.html",
+      "url": "https://www.dir.ca.gov/title8/3041.html",
+      "section_citation": "8 CCR § 3041",
+      "designators": [
+        "(B)"
+      ],
+      "text": "(B) Sensing devices installed in associated elevator machine rooms or associated elevator hoistways which, when activated, will cause all cars to function as specified in section 3041(c)(1)(B).",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 3041(c)(1)6.(B)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/3089.html",
+      "url": "https://www.dir.ca.gov/title8/3089.html#co_anchor_I054C5919F29D46BA94BCCE4C4F9B2FA4",
+      "section_citation": "8 CCR § 3089",
+      "designators": [
+        "(2)"
+      ],
+      "text": "(2) The step riser shall be provided with vertical cleats which shall mesh with slots on the adjacent step treads as the steps make the transition from incline to horizontal.",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 3089(f)(1)(2)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/3089.html",
+      "url": "https://www.dir.ca.gov/title8/3089.html#co_anchor_IFF5481651BA84834A3CFD74DDFC9C137",
+      "section_citation": "8 CCR § 3089",
+      "designators": [
+        "(1)"
+      ],
+      "text": "(1) For driving machine parts:",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 3089(j)(1)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/3089.html",
+      "url": "https://www.dir.ca.gov/title8/3089.html#co_anchor_IF15A22DB2BA940A08A852214BDA07942",
+      "section_citation": "8 CCR § 3089",
+      "designators": [
+        "(A)"
+      ],
+      "text": "(A) Where made of steel or bronze, 8.",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 3089(j)(3)(A)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/3089.html",
+      "url": "https://www.dir.ca.gov/title8/3089.html#co_anchor_ID041E9D2D6ED41768904C4DF61C5E83E",
+      "section_citation": "8 CCR § 3089",
+      "designators": [
+        "(B)"
+      ],
+      "text": "(B) Where made of cast iron or other materials, 10.",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 3089(j)(3)(B)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/3089.html",
+      "url": "https://www.dir.ca.gov/title8/3089.html#co_anchor_IA179654AF33F477EA895AC0E72A875BF",
+      "section_citation": "8 CCR § 3089",
+      "designators": [
+        "(2)"
+      ],
+      "text": "(2) For power-transmission members, 10.",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 3089(j)(2)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/3089.html",
+      "url": "https://www.dir.ca.gov/title8/3089.html#co_anchor_I26E4D3A9CFE840E6A909E71FE94B744F",
+      "section_citation": "8 CCR § 3089",
+      "designators": [
+        "(3)"
+      ],
+      "text": "(3) Steel trusses and supporting structures, including tracks, shall conform to AISC Specification for Design Fabrication and Erection of Structural Steel for Buildings.",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 3089(j)(3)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/3090.html",
+      "url": "https://www.dir.ca.gov/title8/3090.html",
+      "section_citation": "8 CCR § 3090",
+      "designators": [
+        "(1)"
+      ],
+      "text": "(1) Operating and safety devices shall be provided conforming to the requirements of this section.",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 3090(a)(1)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/3090.html",
+      "url": "https://www.dir.ca.gov/title8/3090.html",
+      "section_citation": "8 CCR § 3090",
+      "designators": [
+        "(A)"
+      ],
+      "text": "(A) Starting switches shall be of the key-operated, spring return-type and shall be located within sight of the escalator steps.",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 3090(a)(5)(A)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/3090.html",
+      "url": "https://www.dir.ca.gov/title8/3090.html",
+      "section_citation": "8 CCR § 3090",
+      "designators": [
+        "(B)"
+      ],
+      "text": "(B) Emergency stop buttons or other type of manually operated switches having red buttons or handles shall be accessibly located at or near the top and bottom landings of each escalator, and shall be protected against accidental operation. An escalator stop button with an unlocked cover over it which can readily be lifted or pushed aside shall be considered accessible. The operation of either of these buttons or switches shall interrupt the power to the driving machine. It shall not be possible to start the driving machine by these buttons or switches.",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 3090(a)(5)(B)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/5189.html",
+      "url": "https://www.dir.ca.gov/title8/5189.html#co_anchor_I63257ECA3FA249E68B846E6EA5422865",
+      "section_citation": "8 CCR § 5189",
+      "designators": [
+        "(1)"
+      ],
+      "text": "(1) Information pertaining to hazards of the acutely hazardous and flammable materials used in the process. This information shall consist of at least the following:",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 5189(b)(1)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/5192.html",
+      "url": "https://www.dir.ca.gov/title8/5192.html#co_anchor_I49FAB8605A0F11EC8227000D3A7C4BC3",
+      "section_citation": "8 CCR § 5192",
+      "designators": [
+        "A."
+      ],
+      "text": "A. A site where removal or remedial action is taken pursuant to any of the following:",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 5192(a)A."
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/5192.html",
+      "url": "https://www.dir.ca.gov/title8/5192.html#co_anchor_I49FB54A05A0F11EC8227000D3A7C4BC3",
+      "section_citation": "8 CCR § 5192",
+      "designators": [
+        "B."
+      ],
+      "text": "B. A site where corrective action is taken pursuant to Section 25187 or 25200.10 of the Health and Safety Code or the federal Resource Conservation and Recovery Act of 1976 (42 U.S.C. Sec. 6901 et seq.)",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 5192(a)B."
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/5192.html",
+      "url": "https://www.dir.ca.gov/title8/5192.html#co_anchor_I49FB7BB05A0F11EC8227000D3A7C4BC3",
+      "section_citation": "8 CCR § 5192",
+      "designators": [
+        "C."
+      ],
+      "text": "C. A site where clean-up of a discharge of a hazardous substance is required pursuant to Division 7 (commencing with Section 13000) of the Water Code.",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 5192(a)C."
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/5192.html",
+      "url": "https://www.dir.ca.gov/title8/5192.html#co_anchor_I49FBA2C05A0F11EC8227000D3A7C4BC3",
+      "section_citation": "8 CCR § 5192",
+      "designators": [
+        "D."
+      ],
+      "text": "D. A site where removal or remedial action is taken because a hazardous substance has been discharged or released in an amount that is reportable pursuant to Section 13271 of the Water Code or the federal Comprehensive Environmental Response, Compensation and Liability Act of 1980 (42 U.S.C. Sec. 6901 et seq.). Hazardous substance removal work does not include work related to a hazardous substance spill on a highway.",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 5192(a)D."
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/5199.html",
+      "url": "https://www.dir.ca.gov/title8/5199.html#co_anchor_IC2BBD9E15CE311E4A75DD2EED456709D",
+      "section_citation": "8 CCR § 5199",
+      "designators": [
+        "(C)"
+      ],
+      "text": "(C) The employer shall conduct an additional fit test when the employee reports, or the employer, PLHCP, supervisor, or program administrator makes visual observations of changes in the employee's physical condition that could affect respirator fit. Such conditions include, but are not limited to, facial scarring, dental changes, cosmetic surgery, or an obvious change in body weight.",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 5199(g)(4)(C)"
+    },
+    {
+      "source_url": "https://www.dir.ca.gov/title8/5199.html",
+      "url": "https://www.dir.ca.gov/title8/5199.html#co_anchor_IC2BBD9E35CE311E4A75DD2EED456709D",
+      "section_citation": "8 CCR § 5199",
+      "designators": [
+        "(D)"
+      ],
+      "text": "(D) If, after passing a fit test, the employee subsequently notifies the employer, program administrator, supervisor, or PLHCP that the fit of the respirator is unacceptable, the employee shall be given a reasonable opportunity to select a different respirator facepiece and to be retested.",
+      "reason": "A displayed citation path occurs more than once; neither text is discarded.",
+      "code": "duplicate_citation",
+      "candidate_citation": "8 CCR § 5199(g)(4)(D)"
+    }
+  ],
+  "unvisited_urls": [],
+  "text_policy": "Sections and appendices retain complete source text once. Subdivision text includes own paragraphs and continuations, excludes children, and uses parent links for context.",
+  "asset_policy": "Designated recordkeeping PDF appendices are downloaded and their text is extracted. Other images and linked documents are referenced by URL; not downloaded or OCRed.",
+  "source_documents_preserved": true
+}

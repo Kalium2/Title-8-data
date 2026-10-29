@@ -55,7 +55,7 @@ def crawl(source, client, *, start_urls=None, max_pages=None,
                 "index_count": len(indexes),
                 "entry_count": len(entries),
                 "error_count": len(errors),
-                "asset_policy": "Images and linked documents are referenced by URL; not downloaded or OCRed.",
+                "asset_policy": getattr(source, "ASSET_POLICY", "Images and linked documents are referenced by URL; not downloaded or OCRed."),
             },
             "entries": sorted(entries, key=lambda e: natural_key(e["section"] or e["title"])),
             "indexes": indexes,
@@ -84,9 +84,16 @@ def crawl(source, client, *, start_urls=None, max_pages=None,
                         # Repealed headings may legitimately be terminal indexes.
                         if not re.search(r"repealed|reserved", parsed.title + parsed.text, re.I):
                             raise ValueError("Index has no recognized child links")
-                    indexes.append({"url": final_url, "title": parsed.title,
-                                    "hierarchy": hierarchy,
-                                    "children": [asdict(link) for link in parsed.children]})
+                    index = {"url": final_url, "title": parsed.title,
+                             "hierarchy": hierarchy,
+                             "children": [asdict(link) for link in parsed.children]}
+                    if parsed.text:
+                        index["text"] = parsed.text
+                    if parsed.notes:
+                        index["notes"] = parsed.notes
+                    if include_html and parsed.html:
+                        index["html"] = parsed.html
+                    indexes.append(index)
                     next_hierarchy = hierarchy + [{"title": parsed.title, "url": final_url}]
                     for link in parsed.children:
                         child = canonical_url(link.url)

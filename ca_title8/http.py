@@ -198,7 +198,8 @@ class HttpClient:
         if not self._robots.can_fetch(self.user_agent, url):
             raise PermissionError(f"robots.txt disallows {url}")
         page = self._download(url)
-        if page.content_type not in {"text/html", "application/xhtml+xml"}:
-            raise ValueError(f"Expected HTML, got {page.content_type}: {url}")
+        allowed_types = getattr(self.source, "CONTENT_TYPES", {"text/html", "application/xhtml+xml"})
+        if page.content_type not in allowed_types:
+            raise ValueError(f"Unsupported source content type {page.content_type}: {url}")
         self.cache.put(page)
         return page
